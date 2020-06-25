@@ -34,7 +34,7 @@ class ScmReference extends React.Component {
             title = "Specify the GitHub release tag: e.g jdk-14.0.1+9_adopt"
         }
         let link = `https://github.com/AdoptOpenJDK/openjdk-jdk${this.props.Version}u/releases/latest`
-        helper = <p>This can most likely be found at <a href={link}>{link}</a></p>
+        helper = <p style={{fontSize: "20px"}}>This can most likely be found at <a href={link}>{link}</a></p>
     }
     // The markup for the Step 1 UI
     return(
