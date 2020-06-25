@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AdoptOpenJDK-Release-Scheduler/static/css/main.ae21c90c.chunk.css",
+    "main.js": "/AdoptOpenJDK-Release-Scheduler/static/js/main.fffefc34.chunk.js",
+    "main.js.map": "/AdoptOpenJDK-Release-Scheduler/static/js/main.fffefc34.chunk.js.map",
+    "runtime-main.js": "/AdoptOpenJDK-Release-Scheduler/static/js/runtime-main.4dce20ed.js",
+    "runtime-main.js.map": "/AdoptOpenJDK-Release-Scheduler/static/js/runtime-main.4dce20ed.js.map",
+    "static/css/2.1b1c968b.chunk.css": "/AdoptOpenJDK-Release-Scheduler/static/css/2.1b1c968b.chunk.css",
+    "static/js/2.a4b0763b.chunk.js": "/AdoptOpenJDK-Release-Scheduler/static/js/2.a4b0763b.chunk.js",
+    "static/js/2.a4b0763b.chunk.js.map": "/AdoptOpenJDK-Release-Scheduler/static/js/2.a4b0763b.chunk.js.map",
+    "index.html": "/AdoptOpenJDK-Release-Scheduler/index.html",
+    "precache-manifest.ea20ae7c67c7161b37fbfc88ea6bfe2a.js": "/AdoptOpenJDK-Release-Scheduler/precache-manifest.ea20ae7c67c7161b37fbfc88ea6bfe2a.js",
+    "service-worker.js": "/AdoptOpenJDK-Release-Scheduler/service-worker.js",
+    "static/css/2.1b1c968b.chunk.css.map": "/AdoptOpenJDK-Release-Scheduler/static/css/2.1b1c968b.chunk.css.map",
+    "static/css/main.ae21c90c.chunk.css.map": "/AdoptOpenJDK-Release-Scheduler/static/css/main.ae21c90c.chunk.css.map",
+    "static/js/2.a4b0763b.chunk.js.LICENSE.txt": "/AdoptOpenJDK-Release-Scheduler/static/js/2.a4b0763b.chunk.js.LICENSE.txt",
+    "static/media/adopt_logo_white.png": "/AdoptOpenJDK-Release-Scheduler/static/media/adopt_logo_white.07e2ff50.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dce20ed.js",
+    "static/css/2.1b1c968b.chunk.css",
+    "static/js/2.a4b0763b.chunk.js",
+    "static/css/main.ae21c90c.chunk.css",
+    "static/js/main.fffefc34.chunk.js"
+  ]
+}
