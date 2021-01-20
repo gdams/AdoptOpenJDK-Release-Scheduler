@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AdoptOpenJDK-Release-Scheduler/precache-manifest.fd8da6343b75ea52f1d892deec84e9cd.js"
+  "/AdoptOpenJDK-Release-Scheduler/precache-manifest.0d7089432c543bac33151aa8f30ed09c.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/AdoptOpenJDK-Release-Scheduler/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });

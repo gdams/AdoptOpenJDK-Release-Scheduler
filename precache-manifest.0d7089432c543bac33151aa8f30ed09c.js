@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "161870b87f2203debde40330be4d5efc",
+    "revision": "78ac295cb8cd4e510d6516b940fa26a6",
     "url": "/AdoptOpenJDK-Release-Scheduler/index.html"
   },
   {
-    "revision": "045ceccec4b7d0c2e6fc",
-    "url": "/AdoptOpenJDK-Release-Scheduler/static/css/2.1b1c968b.chunk.css"
+    "revision": "e0c58b75b9b11ef9c5ca",
+    "url": "/AdoptOpenJDK-Release-Scheduler/static/css/2.4cf71c97.chunk.css"
   },
   {
-    "revision": "42564e8938579cb119df",
+    "revision": "810a1740027c64976efc",
     "url": "/AdoptOpenJDK-Release-Scheduler/static/css/main.ae21c90c.chunk.css"
   },
   {
-    "revision": "045ceccec4b7d0c2e6fc",
+    "revision": "e0c58b75b9b11ef9c5ca",
     "url": "/AdoptOpenJDK-Release-Scheduler/static/js/2.a4b0763b.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AdoptOpenJDK-Release-Scheduler/static/js/2.a4b0763b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42564e8938579cb119df",
-    "url": "/AdoptOpenJDK-Release-Scheduler/static/js/main.849293d7.chunk.js"
+    "revision": "810a1740027c64976efc",
+    "url": "/AdoptOpenJDK-Release-Scheduler/static/js/main.4b611c26.chunk.js"
   },
   {
     "revision": "8b9f3a63a5078cbb411e",
