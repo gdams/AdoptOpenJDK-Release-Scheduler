@@ -12,6 +12,9 @@ class MasterForm extends React.Component {
     this.state = {
       currentStep: 1, // Default is Step 1
       additionalConfigureArgs: false,
+      enableTests: true,
+      enableInstallers: true,
+      enableSigner: true,
       version: '',
       jvm: '',
       scmReference: '',
@@ -107,8 +110,8 @@ get nextButton(){
   // Trigger an alert on form submission
   handleSubmit = (event) => {
     event.preventDefault()
-    const { version, jvm, scmReference, additionalConfigureArgs, overridePublishName } = this.state
-    let href=`https://ci.adoptopenjdk.net/job/build-scripts/job/openjdk${version}-pipeline/parambuild/?releaseType=Release&scmReference=${scmReference.replace('+', '%2B')}&additionalConfigureArgs=${additionalConfigureArgs}&overridePublishName=${overridePublishName.replace('+', '%2B')}`
+    const { version, jvm, scmReference, enableTests, enableInstallers, enableSigner, additionalConfigureArgs, overridePublishName } = this.state
+    let href=`https://ci.adoptopenjdk.net/job/build-scripts/job/openjdk${version}-pipeline/parambuild/?releaseType=Release&scmReference=${scmReference.replace('+', '%2B')}&enableTests=${enableTests}&enableInstallers=${enableInstallers}&enableSigner=${enableSigner}&additionalConfigureArgs=${additionalConfigureArgs}&overridePublishName=${overridePublishName.replace('+', '%2B')}`
     alert(`Your specified parameters: \n 
       Version: ${version} \n 
       JVM: ${jvm} \n
